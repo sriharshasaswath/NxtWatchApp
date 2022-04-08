@@ -1,0 +1,156 @@
+.videos-item {
+  list-style-type: none;
+  width: 250px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+
+.thumbnail {
+  height: 160px;
+  width: 290px;
+}
+@media screen and (max-width: 767px) {
+  .thumbnail {
+    height: 190px;
+    width: 330px;
+  }
+}
+
+.link-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 270px;
+}
+@media screen and (max-width: 767px) {
+  .link-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 330px;
+  }
+}
+
+.title {
+  color: black;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  .title {
+    color: black;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+}
+
+.title-dark {
+  color: white;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  .title-dark {
+    color: white;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+}
+
+.viewCount {
+  color: black;
+  margin-bottom: 0;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .viewCount {
+    color: black;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+.viewCount-dark {
+  color: white;
+  margin-bottom: 0;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .viewCount-dark {
+    color: white;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.time {
+  color: black;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .time {
+    color: black;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.time-dark {
+  color: white;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .time-dark {
+    color: white;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+.view-time-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+.profileImageUrl {
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.channel-name {
+  color: black;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+.channel-name-dark {
+  color: white;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 50px;
+}

@@ -1,0 +1,227 @@
+.videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .videos-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    padding-left: 57px;
+    padding-top: 15px;
+  }
+}
+.videos-list-dark {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  width: fit-content;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .videos-list-dark {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    padding-left: 57px;
+    padding-top: 15px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  width: 35vw;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    width: 80vw;
+  }
+}
+
+.search-input-container-dark {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  width: 35vw;
+  margin-left: 40px;
+  background-color: black;
+  border: 1px solid #94a3b8;
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .search-input-container-dark {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    width: 80vw;
+
+    background-color: black;
+  }
+}
+
+.search-input {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+@media screen and (max-width: 767px) {
+  .search-input {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    width: 30vw;
+  }
+}
+
+.search-input-dark {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+@media screen and (max-width: 767px) {
+  .search-input-dark {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    width: 30vw;
+  }
+}
+
+.search-icon {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 767px) {
+  .search-icon {
+    color: #475569;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.search-icon-dark {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+@media screen and (max-width: 767px) {
+  .search-icon-dark {
+    color: #475569;
+    width: 10px;
+    height: 10px;
+    color: white;
+  }
+}
+
+.no-videos-img {
+  height: 300px;
+}
+
+.no-videos-img-dark {
+  height: 300px;
+  background-color: black;
+}
+
+.no-videos-heading {
+  font-family: 'Roboto';
+}
+.no-videos-heading-dark {
+  font-family: 'Roboto';
+  color: white;
+}
+
+.retry-button {
+  border: 0;
+  background-color: #4f46e5;
+  color: white;
+  font-family: 'Roboto';
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.no-videos-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-videos-view-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  height: 700.7vh;
+}
+
+.all-elements-container-dark {
+  padding-top: 10px;
+  background-color: black;
+  width: 85vw;
+}
+@media screen and (max-width: 767px) {
+  .all-elements-container-dark {
+    padding-top: 10px;
+    background-color: black;
+    width: 100vw;
+  }
+}
+
+.all-elements-container {
+  padding-top: 10px;
+}

@@ -1,0 +1,53 @@
+.game-thumbnail {
+  height: 300px;
+  width: 250px;
+}
+
+.gaming-item-container {
+  list-style-type: none;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .gaming-item-container {
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+}
+
+.gaming-item-container-dark {
+  list-style-type: none;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  padding: 15px;
+}
+
+.link-item-gaming {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: fit-content;
+}
+@media screen and (max-width: 767px) {
+  .link-item-gaming {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 330px;
+  }
+}

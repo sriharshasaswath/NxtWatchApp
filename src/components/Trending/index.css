@@ -1,0 +1,59 @@
+.trending-item-container1 {
+  display: flex;
+}
+
+.each-trending-item-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.logo-div {
+  margin: 10px;
+}
+
+.trend-icon {
+  color: red;
+  width: 25px;
+  height: 25px;
+  margin-left: 7px;
+}
+
+.light-icon {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #d7dfe9;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 12px;
+}
+.dark-icon {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 12px;
+}
+
+.dark {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
